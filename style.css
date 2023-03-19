@@ -1,0 +1,47 @@
+.container{
+    width: 60vw;                     
+    height: 60vh ;                    
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;        
+}
+
+.card{
+    width: 9%;
+    height: 10%;
+    border: 1px solid grey;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+}
+.puntos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.puntuacion{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+/* CREAMOS LAS CLASES DE LAS POSICIONES OBJETIVO, J1, J2*/
+.objetivo{
+    background-color: green;
+}
+
+.j1{
+    background-color: orange;
+    text-align:center;
+}
+
+.j2{
+    background-color: crimson;
+    text-align:center;
+}
